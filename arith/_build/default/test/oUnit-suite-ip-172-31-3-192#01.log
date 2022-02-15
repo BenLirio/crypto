@@ -1,0 +1,9 @@
+2022-02-11T20:03:33+00:00 ip-172-31-3-192#01 I: Start test suite:0:int.
+2022-02-11T20:03:33+00:00 ip-172-31-3-192#01 I: Test suite:0:int is successful.
+2022-02-11T20:03:33+00:00 ip-172-31-3-192#01 I: End test suite:0:int.
+2022-02-11T20:03:33+00:00 ip-172-31-3-192#01 I: Start test suite:2:adds.
+2022-02-11T20:03:33+00:00 ip-172-31-3-192#01 I: Test suite:2:adds is successful.
+2022-02-11T20:03:33+00:00 ip-172-31-3-192#01 I: End test suite:2:adds.
+2022-02-11T20:03:33+00:00 ip-172-31-3-192#01 I: Start test suite:3:mul0.
+2022-02-11T20:03:33+00:00 ip-172-31-3-192#01 I: Test suite:3:mul0 is successful.
+2022-02-11T20:03:33+00:00 ip-172-31-3-192#01 I: End test suite:3:mul0.

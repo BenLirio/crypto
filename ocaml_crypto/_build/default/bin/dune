@@ -1,0 +1,8 @@
+(library
+  (name lwe)
+  (modules lwe))
+
+(executable
+ (name main)
+ (modules main)
+ (libraries lwe))

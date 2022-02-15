@@ -1,0 +1,6 @@
+(** @canonical Dune__exe.LweTest *)
+module LweTest = Dune__exe__LweTest
+
+
+(** @canonical Dune__exe.Ocaml_crypto *)
+module Ocaml_crypto = Dune__exe__Ocaml_crypto

@@ -1,0 +1,5 @@
+lib: [
+  "_build/install/default/lib/ocaml_crypto/META"
+  "_build/install/default/lib/ocaml_crypto/dune-package"
+  "_build/install/default/lib/ocaml_crypto/opam"
+]

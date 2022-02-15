@@ -1,0 +1,18 @@
+(** @canonical Arith.Ast *)
+module Ast = Arith__Ast
+
+
+(** @canonical Arith.Ds *)
+module Ds = Arith__Ds
+
+
+(** @canonical Arith.Interp *)
+module Interp = Arith__Interp
+
+
+(** @canonical Arith.Lexer *)
+module Lexer = Arith__Lexer
+
+
+(** @canonical Arith.Parser *)
+module Parser = Arith__Parser

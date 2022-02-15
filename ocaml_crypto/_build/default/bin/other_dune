@@ -1,0 +1,21 @@
+(library
+ (name simulator)
+ (modules simulator int64_overflow)
+ (libraries x86 num))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
+
+(executable
+ (public_name main)
+ (name main)
+ (modules main)
+ (promote (until-clean))
+ (libraries
+; OCaml standard libraries  
+; project libraries
+  util
+  x86
+  studenttests
+  gradedtests))

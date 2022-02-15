@@ -1,0 +1,27 @@
+(lang dune 2.9)
+(name arith)
+(library
+ (name arith)
+ (kind normal)
+ (synopsis "Interpreter for ARITH")
+ (archives (byte arith.cma) (native arith.cmxa))
+ (plugins (byte arith.cma) (native arith.cmxs))
+ (native_archives arith.a)
+ (main_module_name Arith)
+ (modes byte native)
+ (modules
+  (wrapped
+   (main_module_name Arith)
+   (modules
+    ((name Ast) (obj_name arith__Ast) (visibility public) (impl))
+    ((name Ds) (obj_name arith__Ds) (visibility public) (impl))
+    ((name Interp) (obj_name arith__Interp) (visibility public) (impl))
+    ((name Lexer) (obj_name arith__Lexer) (visibility public) (impl))
+    ((name Parser) (obj_name arith__Parser) (visibility public) (impl) (intf)))
+   (alias_module
+    (name Arith)
+    (obj_name arith)
+    (visibility public)
+    (kind alias)
+    (impl))
+   (wrapped true))))
